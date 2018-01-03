@@ -10,6 +10,7 @@ The sources files are located in the src directory, and the compiled executables
 
 *NOTE: The client and server executable files should be located different directories*
 
+
 # Usage
 - Server
 ```
@@ -30,3 +31,13 @@ This is a really basic client utility which can perform 4 different functionalit
 - quit, exits the client program
 
 *NOTE: The server program will keep running even after a client has been disconnected, waiting for future connections*
+
+*NOTE: The provided client and server utilities do not include directory changing functionalities*
+
+# Example Run
+- The console on the left is running the ftpclient, which currently does not contain other files in its directory. 
+- The console on the right is running the ftpserver, which contans the test files in its directory. 
+
+
+![Imgur](https://imgur.com/a/egHQy.gif)
+
