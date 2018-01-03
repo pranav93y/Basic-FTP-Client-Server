@@ -20,3 +20,13 @@ The sources files are located in the src directory, and the compiled executables
 ```
 ./ftpclient <server-ip> <server-listen-port>
 ```
+
+# Interface Commands
+This is a really basic client utility which can perform 4 different functionalities;
+
+- ls, lists the current directory
+- get <filename>, gets the file from server to client
+- put <filename>, puts the files from the client to the server
+- quit, exits the client program
+
+*NOTE: The server program will keep running even after a client has been disconnected, waiting for future connections*
