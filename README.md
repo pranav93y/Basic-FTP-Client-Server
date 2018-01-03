@@ -39,5 +39,5 @@ This is a really basic client utility which can perform 4 different functionalit
 - The console on the right is running the ftpserver, which contans the test files in its directory. 
 
 
-![Imgur](https://imgur.com/a/egHQy.gif)
+![Imgur](https://imgur.com/oyjYZ36.gif)
 
