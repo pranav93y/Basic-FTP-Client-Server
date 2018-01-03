@@ -11,3 +11,12 @@ The sources files are located in the src directory, and the compiled executables
 *NOTE: The client and server executable files should be located different directories*
 
 # Usage
+- Server
+```
+./ftpserver <listen-port>
+```
+
+- Client
+```
+./ftpclient <server-ip> <server-listen-port>
+```
