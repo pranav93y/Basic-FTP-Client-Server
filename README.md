@@ -36,8 +36,12 @@ This is a really basic client utility which can perform 4 different functionalit
 
 # Example Run
 - The console on the left is running the ftpclient, which currently does not contain other files in its directory. 
-- The console on the right is running the ftpserver, which contans the test files in its directory. 
+- The console on the right is running the ftpserver, which contains the test files in its directory. 
 
 
 ![Imgur](https://imgur.com/oyjYZ36.gif)
 
+
+- The client firsts performs ls, prompting the server for a list of available files in its directory. 
+- The client then asks to get file "a", and quits. 
+- The file has been transferred from the server to the client, and has been renamed "a-out". 
