@@ -48,6 +48,6 @@ This is a really basic client utility which can perform 4 different functionalit
 ![Imgur](https://imgur.com/oyjYZ36.gif)
 
 # Design
-The ftpclient and ftpserver programs use two TCP connections; control and data. The control connection is first setup the first thing even before prompting the user for input. After it has been setup, and the user’s input has been checked for validity, the client application then sends over the PORT command, giving the server the clients ip address and the port number for the server to connect. After the data connection is setup, the client sends over the command for which the server performs and replies. After the reply is sent, the data connection is closed. The PORT command is therefore sent to the server for every new command in order to establish the data connection when needed.
+The ftpclient and ftpserver programs use two TCP connections; control and data. The control connection is the first thing that is setup even before prompting the user for input. After it has been setup, and the user’s input has been checked for validity, the client application then sends over the PORT command, giving the server the client's ip address and the port number for the server to connect. After the data connection is setup, the client sends over the command for which the server performs and replies. After the reply is sent, the data connection is closed. The PORT command is therefore sent to the server for every new command in order to establish the data connection when needed.
 
 
